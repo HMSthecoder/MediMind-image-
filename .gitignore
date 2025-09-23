@@ -1,0 +1,66 @@
+# Dataset and Data Files
+data/
+data_processed/
+*.png
+*.jpg
+*.jpeg
+*.csv
+
+# Model Files (large binary files)
+*.pth
+*.pt
+*.pkl
+best_model.pth
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Results (keep structure but not the actual result files)
+results/gradcam/*.png
+results/metrics/*.png
+results/metrics/*.txt
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large files that shouldn't be versioned
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation build
+docs/_build/
