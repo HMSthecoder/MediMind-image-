@@ -1,0 +1,57 @@
+============================================================
+DIABETIC RETINOPATHY CLASSIFICATION - PERFORMANCE REPORT
+============================================================
+
+OVERALL PERFORMANCE:
+--------------------
+Accuracy: 0.8327
+Precision (Macro): 0.6992
+Recall (Macro): 0.6719
+F1-Score (Macro): 0.6816
+ROC-AUC (Macro): 0.9285
+
+PER-CLASS PERFORMANCE:
+-------------------------
+No DR:
+  Precision: 0.9707
+  Recall: 0.9779
+  F1-Score: 0.9743
+  ROC-AUC: 0.9930
+
+Mild:
+  Precision: 0.6444
+  Recall: 0.5179
+  F1-Score: 0.5743
+  ROC-AUC: 0.9133
+
+Moderate:
+  Precision: 0.7651
+  Recall: 0.8467
+  F1-Score: 0.8038
+  ROC-AUC: 0.9398
+
+Severe:
+  Precision: 0.4688
+  Recall: 0.5172
+  F1-Score: 0.4918
+  ROC-AUC: 0.9259
+
+Proliferative:
+  Precision: 0.6471
+  Recall: 0.5000
+  F1-Score: 0.5641
+  ROC-AUC: 0.8704
+
+DETAILED CLASSIFICATION REPORT:
+-----------------------------------
+               precision    recall  f1-score   support
+
+        No DR       0.97      0.98      0.97       271
+         Mild       0.64      0.52      0.57        56
+     Moderate       0.77      0.85      0.80       150
+       Severe       0.47      0.52      0.49        29
+Proliferative       0.65      0.50      0.56        44
+
+     accuracy                           0.83       550
+    macro avg       0.70      0.67      0.68       550
+ weighted avg       0.83      0.83      0.83       550

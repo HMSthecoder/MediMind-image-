@@ -1,7 +1,7 @@
 # Dataset and Data Files
 data/
 data_processed/
-*.png
+
 *.jpg
 *.jpeg
 *.csv
@@ -43,10 +43,7 @@ Thumbs.db
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Results (keep structure but not the actual result files)
-results/gradcam/*.png
-results/metrics/*.png
-results/metrics/*.txt
+
 
 # Logs
 *.log
