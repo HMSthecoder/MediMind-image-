@@ -207,7 +207,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-For questions or collaboration opportunities, please open an issue or contact [your email].
+For questions or collaboration opportunities, please open an issue or contact 202204043.himanshupsk@student.xavier.ac.in.
 
 ---
 
